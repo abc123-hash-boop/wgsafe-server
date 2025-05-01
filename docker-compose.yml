@@ -5,8 +5,8 @@ services:
   amnezia-wg-easy:
     env_file:
       - .env
-    image: ghcr.io/w0rng/amnezia-wg-easy
-    container_name: amnezia-wg-easy
+    image: ghcr.io/abc123-hash-boop/wgsafe:latest
+    container_name: wgsafe-easy
     volumes:
       - etc_wireguard:/etc/wireguard
     ports:
